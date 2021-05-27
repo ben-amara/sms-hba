@@ -1,0 +1,15 @@
+{
+    "modem": {
+        "device": "/dev/tty.usbserial-142",
+        "baudrate": 115200,
+        "rtscts": true
+    },
+    "enable_dashboard": true,
+    "port": 8080,
+    "drop_priv": false, 
+    "user": "smsd",
+    "max_queue": 100,
+    "message_retries": 3,
+    "log_size": 20,
+    "wake_interval": 30
+}

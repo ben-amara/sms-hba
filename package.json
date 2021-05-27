@@ -1,0 +1,19 @@
+{
+  "name": "smsd-hba",
+  "version": "1.0.0",
+  "description": "Send SMS via REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "ben-amara"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^4.1.1",
+    "serialport": "^9.0.8",
+    "socket.io": "^1.4.8",
+    "uuid": "^2.0.2"
+  }
+}
