@@ -1,0 +1,11 @@
+---
+application:
+  name: "sms-hba"
+  project: "sms-hba"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-sms-hba"
+  routes:
+  - application_name: "sms-hba"
+    paths:
+    - "/*"
